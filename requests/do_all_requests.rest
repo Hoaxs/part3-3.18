@@ -1,0 +1,14 @@
+GET http://localhost:3001/api/persons
+
+###
+DELETE http://localhost:3001/api/persons/648afc15a22ea05eea6fc3e1
+
+###
+POST http://localhost:3001/api/persons
+Content-Type:application/json
+
+
+    {
+        "name":"Nerry Francis",
+        "number":"0-8010-001 000"
+    }
